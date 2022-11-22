@@ -24,3 +24,14 @@ ul, li{
   list-style-type: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 4em;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

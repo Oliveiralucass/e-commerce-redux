@@ -11,12 +11,11 @@ const Header = () => {
       <h1 onClick={() => navigate("/")}>go.skins</h1>
       <div>
         <ul>
-          <li>Facas</li>
-          <li>Luvas</li>
-          <li>Rifles</li>
-          <li>Pistolas</li>
-          <li>Submetralhadoras</li>
-          <li>Escopetas</li>
+          <li><a href="#facas">Facas</a></li>
+          <li><a href="#rifles">Rifles</a></li>
+          <li><a href="#pistolas">Pistolas</a></li>
+          <li><a href="#submetralhadoras">Submetralhadoras</a></li>
+          <li><a href="#escopetas">Escopetas</a></li>
         </ul>
         <div>
         <input type="text" placeholder="Pesquisar..."/>

@@ -36,14 +36,14 @@
   gap: 1.5rem;
 }
 
-.container li {
+.container  a {
   color: var(--branco);
   transition: 0.5s;
   font-size: 1.10rem;
 
 }
 
-.container li:hover {
+.container a:hover {
   color: var(--roxo-detail);
   cursor: pointer;
 }

@@ -7,7 +7,7 @@ import CardHome from '../../components/CardHome/CardHome'
 export const MainHome = () => {
   return (
     <main className={styles.main}>
-      <div className={styles.categoria}>
+      <div className={styles.categoria} id="facas">
         <h1>Facas</h1>
         <div className={styles.cards}>
           <CardHome imagem={'Karambit.png'} nome={'Karambit'}/>
@@ -18,7 +18,7 @@ export const MainHome = () => {
         </div>
       </div>
 
-      <div className={styles.categoria}>
+      <div className={styles.categoria} id="rifles">
         <h1>Rifles</h1>
         <div className={styles.cards}>
           <CardHome imagem={'ak-47.png'} nome={'AK-47'}/>
@@ -29,7 +29,7 @@ export const MainHome = () => {
         </div>
       </div>
 
-      <div className={styles.categoria}>
+      <div className={styles.categoria} id="pistolas">
         <h1>Pistolas</h1>
         <div className={styles.cards}>
           <CardHome imagem={'Usp-s.png'} nome={'USP-S'}/>
@@ -40,7 +40,7 @@ export const MainHome = () => {
         </div>
       </div>
 
-      <div className={styles.categoria}>
+      <div className={styles.categoria} id="submetralhadoras">
         <h1>Submetralhadoras</h1>
         <div className={styles.cards}>
           <CardHome imagem={'p90.png'} nome={'P90'}/>
@@ -51,7 +51,7 @@ export const MainHome = () => {
         </div>
       </div>
 
-      <div className={styles.categoria}>
+      <div className={styles.categoria} id="escopetas">
         <h1>Armas Pesadas</h1>
         <div className={styles.cards}>
           <CardHome imagem={'sawed-off.png'} nome={'Cano Curto'}/>
