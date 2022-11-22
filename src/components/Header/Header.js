@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./Header.module.css"
 import { FaShoppingCart } from 'react-icons/fa';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Header = () => {
   const navigate = useNavigate()
@@ -18,8 +18,10 @@ const Header = () => {
           <li><a href="#escopetas">Escopetas</a></li>
         </ul>
         <div>
-        <input type="text" placeholder="Pesquisar..."/>
-        <FaShoppingCart className={styles.cart}/>
+          <input type="text" placeholder="Pesquisar..."/>
+          <Link to={'/carrinho'}>
+            <FaShoppingCart className={styles.cart}/>
+          </Link>        
         </div>
       </div>
       <h1></h1>
