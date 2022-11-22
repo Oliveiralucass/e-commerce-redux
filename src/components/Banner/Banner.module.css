@@ -1,0 +1,30 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    opacity: 0.3;
+}
+.bannerText{
+    position: absolute;
+    left: 10%;
+    color: #ffffff;
+    width: 600px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.bannerText h1{
+    font-size: 5.25rem;
+    color: #faf5ff;
+}
+.bannerText h2{
+    font-size: 2.25rem;
+    color: #ddd6fe;
+}

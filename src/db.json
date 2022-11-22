@@ -1,5 +1,39 @@
 [
     {
+        "arma": "karambit",
+        "nome": "",
+        "colecao": "",
+        "image": ""
+    },
+    {
+        "arma": "karambit",
+        "nome": "",
+        "colecao": "",
+        "image": ""
+    },
+    {
+        "arma": "karambit",
+        "nome": "",
+        "colecao": "",
+        "image": ""
+    },
+    {
+        "arma": "karambit",
+        "nome": "",
+        "colecao": "",
+        "image": ""
+    },
+
+
+    {
+        "arma": "karambit",
+        "nome": "",
+        "colecao": "",
+        "image": ""
+    },
+
+
+    {
         "arma": "ak-47",
         "nome": "Wild Lotus",
         "colecao": "The St Marc Collection",
@@ -23,4 +57,7 @@
         "colecao": "",
         "image": ""
     }
+
+
+   
 ]

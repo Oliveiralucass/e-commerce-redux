@@ -2,9 +2,10 @@
 
 :root{
   --roxo-bg: #19123B;
-  --roxo-primary: #2E2475;
-  --roxo-secondary: #463B91;
+  --roxo-primary: #2e2475;
+  --roxo-secondary: #473b91;
   --roxo-detail: #785EA8; 
+  --branco: #faf5ff;
 }
 *{
   margin: 0;
@@ -12,7 +13,9 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-
+body{
+  background-color: var(--roxo-bg);
+}
 a{
   text-decoration: none;
 }

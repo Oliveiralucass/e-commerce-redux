@@ -4,12 +4,13 @@
   justify-content: space-between;
   max-width: 100vw;
   height: 100px;
-  background-color: var(--roxo-primary);
+  background-color: var(--roxo-bg);
   padding: 0 5rem;
+  box-shadow: 0.1rem 0.1rem 1.5rem rgb(0 0 0 / 25%);
 }
 
 .container h1 {
-  color: #fff;
+  color: var(--branco);
 }
 
 .container > div {
@@ -31,7 +32,7 @@
 }
 
 .container li {
-  color: #fff;
+  color: var(--branco);
   transition: 0.5s;
   font-size: 1.10rem;
 
@@ -51,12 +52,12 @@
 }
 
 .container input:focus {
-  color: #fff;
+  color: var(--branco);
   background-color: var(--roxo-detail);
 }
 
 .cart {
-  color: #fff;
+  color: var(--branco);
   font-size: 1.25rem;
 }
 
