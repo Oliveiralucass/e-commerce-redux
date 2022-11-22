@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(46, 36, 117, 0.3);
+}
+
+.container:hover {
+  cursor: pointer;
+  background-color: rgba(46, 36, 117, 0.6);
+
+}
+
+.container img {
+  width: 80%;
+}
+
+.container h3 {
+  color: var(--branco);
+}
+
+.container p {
+  color: #ddd6fe;
+}
