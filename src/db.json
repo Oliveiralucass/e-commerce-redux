@@ -2,6 +2,25 @@
     {
         "arma": "ak-47",
         "nome": "Wild Lotus",
-        "colecao": "The St Marc Collection"
+        "colecao": "The St Marc Collection",
+        "image": "ak-47-wild-lotus.png"
+    },
+    {
+        "arma": "ak-47",
+        "nome": "",
+        "colecao": "",
+        "image": ""
+    },
+    {
+        "arma": "ak-47",
+        "nome": "",
+        "colecao": "",
+        "image": ""
+    },
+    {
+        "arma": "ak-47",
+        "nome": "",
+        "colecao": "",
+        "image": ""
     }
 ]
