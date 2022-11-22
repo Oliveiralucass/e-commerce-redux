@@ -10,7 +10,6 @@ export const Weapons = () => {
   return (
     <div>
       <CardSkin nome={"teste"} imagem={"ak-47.png"} colecao={"caixa x"} preco={"R$ 10.99"}/>
-      <CardCarrinho nome={"teste"} imagem={"ak-47.png"} colecao={"caixa x"} preco={"R$ 10.99"}/>
     </div>
   )
 }

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <MarcaRegistrada />
-      Movier, 2022 - Todos os direitos reservados.
+      go.skins, 2022 - Todos os direitos reservados.
     </div>
   )
 }

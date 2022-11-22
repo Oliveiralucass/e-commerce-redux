@@ -3,6 +3,7 @@
     flex-direction: column;
     margin-top: 120px;
     color: var(--branco);
+    gap: 40px;
 }
 
 .carrinhoCheckout{
@@ -14,7 +15,7 @@
 .carrinhoCheckout div{
     display: flex;
     justify-content: space-between;
-    background-color: var(--roxo-primary);
+    background-color: var(--roxo-secondary);
     padding: 20px;
     height: 60px;
     margin-bottom: 30px;
