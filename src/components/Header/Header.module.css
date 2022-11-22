@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100vw;
+  height: 100px;
+  background-color: #1C0234;
+  padding: 0 5rem;
+}
+
+.container h1 {
+  color: #fff;
+}
+
+.container > div {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.container > div  div{
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.container ul {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.container li {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.container li:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.container input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 1rem;
+}
+
+.cart {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+
+.cart:hover {
+  color: blue;
+  cursor: pointer;
+}

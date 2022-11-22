@@ -1,7 +1,14 @@
 import React from 'react'
+import styles from "./Footer.module.css"
+import { ReactComponent as MarcaRegistrada } from '../../assets/marca-registrada.svg';
 
-export const Footer = () => {
+const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className={styles.container}>
+      <MarcaRegistrada />
+      Movier, 2022 - Todos os direitos reservados.
+    </div>
   )
 }
+
+export default Footer

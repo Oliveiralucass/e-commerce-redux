@@ -4,10 +4,13 @@ import { Carrinho } from './pages/Carrinho/Carrinho'
 import { Home } from './pages/Home/Home'
 import { NotFind } from './pages/NotFind/NotFind'
 import { Weapons } from './pages/Weapons/Weapons'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 export const AppRoutes = () => {
   return (
     <BrowserRouter>
+    <Header />
       <Routes>
         <Route path='/' element={<Home />} />
 
@@ -19,6 +22,7 @@ export const AppRoutes = () => {
         </Route>
         <Route path='*' element={<NotFind />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
