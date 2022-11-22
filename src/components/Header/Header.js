@@ -1,11 +1,14 @@
 import React from 'react'
 import styles from "./Header.module.css"
 import { FaShoppingCart } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  const navigate = useNavigate()
+
   return (
     <div className={styles.container}>
-      <h1>go.skins</h1>
+      <h1 onClick={() => navigate("/")}>go.skins</h1>
       <div>
         <ul>
           <li>Facas</li>

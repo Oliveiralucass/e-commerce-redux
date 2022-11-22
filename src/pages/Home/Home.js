@@ -2,6 +2,7 @@ import React from 'react'
 import { Banner } from '../../components/Banner/Banner'
 import homeBanner from '../../assets/home-banner.jpg'
 import styles from './Home.module.css'
+import CardHome from '../../components/CardHome/CardHome'
 
 export const Home = () => {
   return (
