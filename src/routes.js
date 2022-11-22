@@ -17,6 +17,7 @@ export const AppRoutes = () => {
           <Route index element ={<Weapons />}/>
           <Route path='/weapons/:gun' element={<Weapons />} />
         </Route>
+        
         <Route path='*' element={<NotFind />} />
       </Routes>
     </BrowserRouter>
