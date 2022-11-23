@@ -2,60 +2,185 @@
   {
     "url": "karambit",
     "arma": "Karambit",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Doppler Sapphire",
+    "colecao": "Chroma case",
+    "image": "karambit-doppler-sapphire.png",
+    "preco": 11953.0,
     "favorito": false
   },
-
   {
     "url": "karambit",
     "arma": "Karambit",
-    "nome": "Wild Lotus 2",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Gamma Doppler Emerald",
+    "colecao": "Gamma case",
+    "image": "karambit-gamma-doppler-emerald.png",
+    "preco": 10958.0,
+    "favorito": false
+  },
+  {
+    "url": "karambit",
+    "arma": "Karambit",
+    "nome": "Doppler Ruby",
+    "colecao": "Chroma case",
+    "image": "karambit-doppler-ruby.png",
+    "preco": 8260.0,
+    "favorito": false
+  },
+  {
+    "url": "karambit",
+    "arma": "Karambit",
+    "nome": "Doppler Black Pearl",
+    "colecao": "Chroma case",
+    "image": "karambit-doppler-black-pearl.png",
+    "preco": 5160.0,
     "favorito": false
   },
 
   {
     "url": "faca-m9-bayonet",
     "arma": "Faca M9 Bayonet",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Doppler Sapphire",
+    "colecao": "Chroma case",
+    "image": "m9-bayonet-doppler-sapphire.png",
+    "preco": 14647.0,
+    "favorito": false
+  },
+  {
+    "url": "faca-m9-bayonet",
+    "arma": "Faca M9 Bayonet",
+    "nome": "Gamma Doppler Emerald",
+    "colecao": "Gamma case",
+    "image": "m9-bayonet-gamma-doppler-emerald.png",
+    "preco": 12416.0,
+    "favorito": false
+  },
+  {
+    "url": "faca-m9-bayonet",
+    "arma": "Faca M9 Bayonet",
+    "nome": "Doppler Ruby",
+    "colecao": "Chroma case",
+    "image": "m9-bayonet-doppler-ruby.png",
+    "preco": 6721.0,
+    "favorito": false
+  },
+  {
+    "url": "faca-m9-bayonet",
+    "arma": "Faca M9 Bayonet",
+    "nome": "Crimson Web",
+    "colecao": "Weapon case",
+    "image": "m9-bayonet-crimson-web.png",
+    "preco": 534.0,
     "favorito": false
   },
 
   {
     "url": "faca-butterfly",
     "arma": "Faca Buttefly",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Doppler Sapphire",
+    "colecao": "Spectrum case",
+    "image": "faca-butterfly-doppler-sapphire.png",
+    "preco": 18514.0,
+    "favorito": false
+  },
+  {
+    "url": "faca-butterfly",
+    "arma": "Faca Buttefly",
+    "nome": "Gamma Doppler Emerald",
+    "colecao": "Operation riptide case",
+    "image": "faca-butterfly-gamma-doppler-emerald.png",
+    "preco": 20830.0,
+    "favorito": false
+  },
+  {
+    "url": "faca-butterfly",
+    "arma": "Faca Buttefly",
+    "nome": "Doppler Ruby",
+    "colecao": "Spectrum case",
+    "image": "faca-butterfly-doppler-ruby.png",
+    "preco": 10516.0,
+    "favorito": false
+  },
+  {
+    "url": "faca-butterfly",
+    "arma": "Faca Buttefly",
+    "nome": "Crimson Web",
+    "colecao": "Operation breakout weapon case",
+    "image": "faca-butterfly-crimson-web.png",
+    "preco": 771.0,
     "favorito": false
   },
 
   {
     "url": "faca-talon",
-    "arma": "Faca Buttefly",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "arma": "Faca Talon",
+    "nome": "Doppler Sapphire",
+    "colecao": "Prisma case",
+    "image": "faca-talon-doppler-sapphire.png",
+    "preco": 6901.0,
+    "favorito": false
+  },
+  {
+    "url": "faca-talon",
+    "arma": "Faca Talon",
+    "nome": "Doppler Ruby",
+    "colecao": "Prisma case",
+    "image": "faca-talon-doppler-ruby.png",
+    "preco": 4990.0,
+    "favorito": false
+  },
+  {
+    "url": "faca-talon",
+    "arma": "Faca Talon",
+    "nome": "Crimson Web",
+    "colecao": "Horizon case",
+    "image": "faca-talon-crimson-web.png",
+    "preco": 397.9,
+    "favorito": false
+  },
+  {
+    "url": "faca-talon",
+    "arma": "Faca Talon",
+    "nome": "Fade",
+    "colecao": "Horizon case",
+    "image": "faca-talon-fade.png",
+    "preco": 1393.0,
     "favorito": false
   },
 
   {
     "url": "faca-skeleton",
     "arma": "Faca Skeleton",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Crimson Web",
+    "colecao": "Shattered web case",
+    "image": "faca-skeleton-crimson-web.png",
+    "preco": 882.29,
+    "favorito": false
+  },
+  {
+    "url": "faca-skeleton",
+    "arma": "Faca Skeleton",
+    "nome": "Fade",
+    "colecao": "Shattered web case",
+    "image": "faca-skeleton-fade.png",
+    "preco": 2072.5,
+    "favorito": false
+  },
+  {
+    "url": "faca-skeleton",
+    "arma": "Faca Skeleton",
+    "nome": "Case hardened",
+    "colecao": "Shattered web case",
+    "image": "faca-skeleton-case-hardened.png",
+    "preco": 522.0,
+    "favorito": false
+  },
+  {
+    "url": "faca-skeleton",
+    "arma": "Faca Skeleton",
+    "nome": "Slaughter",
+    "colecao": "Shattered web case",
+    "image": "faca-skeleton-slaughter.png",
+    "preco": 1034.9,
     "favorito": false
   },
 
@@ -65,47 +190,182 @@
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
     "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "preco": 2386.0,
+    "favorito": false
+  },
+  {
+    "url": "ak-47",
+    "arma": "AK-47",
+    "nome": "Vulcan",
+    "colecao": "The huntsman collection",
+    "image": "ak-47-vulcan.png",
+    "preco": 109.0,
+    "favorito": false
+  },
+  {
+    "url": "ak-47",
+    "arma": "AK-47",
+    "nome": "Asiimov",
+    "colecao": "The danger zone collection",
+    "image": "ak-47-asiimov.png",
+    "preco": 46.44,
+    "favorito": false
+  },
+  {
+    "url": "ak-47",
+    "arma": "AK-47",
+    "nome": "The empress",
+    "colecao": "The spectrum 2 collection",
+    "image": "ak-47-the-empress.png",
+    "preco": 46.84,
     "favorito": false
   },
 
   {
     "url": "awp",
     "arma": "AWP",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Dragon lore",
+    "colecao": "The cobblestone collection",
+    "image": "awp-dragon-lore.png",
+    "preco": 3994.99,
+    "favorito": false
+  },
+  {
+    "url": "awp",
+    "arma": "AWP",
+    "nome": "Medusa",
+    "colecao": "The gods and monsters collection",
+    "image": "awp-medusa.png",
+    "preco": 2142.2,
+    "favorito": false
+  },
+  {
+    "url": "awp",
+    "arma": "AWP",
+    "nome": "Fade",
+    "colecao": "The control collection",
+    "image": "awp-fade.png",
+    "preco": 996.69,
+    "favorito": false
+  },
+  {
+    "url": "awp",
+    "arma": "AWP",
+    "nome": "Boom",
+    "colecao": "The eSports 2013 collection",
+    "image": "awp-boom.png",
+    "preco": 113.6,
     "favorito": false
   },
 
   {
     "url": "m4a4",
     "arma": "M4A4",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Howl",
+    "colecao": "The huntsman collection",
+    "image": "m4a4-howl.png",
+    "preco": 8379.0,
+    "favorito": false
+  },
+  {
+    "url": "m4a4",
+    "arma": "M4A4",
+    "nome": "Poseidon",
+    "colecao": "The gods and monsters collection",
+    "image": "m4a4-poseidon.png",
+    "preco": 971.0,
+    "favorito": false
+  },
+  {
+    "url": "m4a4",
+    "arma": "M4A4",
+    "nome": "Asiimov",
+    "colecao": "The winter offensive collection",
+    "image": "m4a4-howl.png",
+    "preco": 113.5,
+    "favorito": false
+  },
+  {
+    "url": "m4a4",
+    "arma": "M4A4",
+    "nome": "The emperor",
+    "colecao": "The prisma collection",
+    "image": "m4a4-the-emperor.png",
+    "preco": 20.77,
     "favorito": false
   },
 
   {
     "url": "m4a1-s",
     "arma": "M4A1-S",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Hot rod",
+    "colecao": "The chop shop collection",
+    "image": "m4a1-s-hot-rod.png",
+    "preco": 599.99,
+    "favorito": false
+  },
+  {
+    "url": "m4a1-s",
+    "arma": "M4A1-S",
+    "nome": "Icarus fell",
+    "colecao": "The gods and monsters collection",
+    "image": "m4a1-s-icarus-fell.png",
+    "preco": 506.99,
+    "favorito": false
+  },
+  {
+    "url": "m4a1-s",
+    "arma": "M4A1-S",
+    "nome": "Printstream",
+    "colecao": "The operation broken fang collection",
+    "image": "m4a1-s-printstream.png",
+    "preco": 161.6,
+    "favorito": false
+  },
+  {
+    "url": "m4a1-s",
+    "arma": "M4A1-S",
+    "nome": "Blue phosphor",
+    "colecao": "The control collection",
+    "image": "m4a1-s-blue-phosphor.png",
+    "preco": 310.5,
     "favorito": false
   },
 
   {
     "url": "aug",
     "arma": "AUG",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Hot rod",
+    "colecao": "The assault collection",
+    "image": "aug-hot-rod.png",
+    "preco": 271.5,
+    "favorito": false
+  },
+  {
+    "url": "aug",
+    "arma": "AUG",
+    "nome": "Momentum",
+    "colecao": "The prisma collection",
+    "image": "aug-momentum.png",
+    "preco": 2.93,
+    "favorito": false
+  },
+  {
+    "url": "aug",
+    "arma": "AUG",
+    "nome": "Wings",
+    "colecao": "The arms deal collection",
+    "image": "aug-wings.png",
+    "preco": 13.27,
+    "favorito": false
+  },
+  {
+    "url": "aug",
+    "arma": "AUG",
+    "nome": "Torque",
+    "colecao": "The huntsman collection",
+    "image": "aug-torque.png",
+    "preco": 6.7,
     "favorito": false
   },
 

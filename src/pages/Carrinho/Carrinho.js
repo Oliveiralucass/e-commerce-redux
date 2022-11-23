@@ -16,15 +16,16 @@ export const Carrinho = () => {
         bannerTexto={"Confira quais skins foram adicionadas em seu carrinho"}
       />
 
-
       <div className={styles.main}>
-        
-        {carrinho && carrinho.map((skin) => {
-          return  <div key={skin.nome}>
-              <CardCarrinho {...skin}/>
-            </div>
-        })}
-        
+        {carrinho &&
+          carrinho.map((skin) => {
+            return (
+              <div key={`${skin.arma} ${skin.nome}`}>
+                <CardCarrinho {...skin} />
+              </div>
+            );
+          })}
+
         <div className={styles.carrinhoCheckout}>
           <div>
             <p>Resumo da compra</p>
