@@ -5,19 +5,14 @@ import { AiFillHeart } from "react-icons/ai";
 import { MdRemoveCircle } from "react-icons/md";
 import { MdAddCircle } from "react-icons/md";
 import { useDispatch } from "react-redux";
-import { removerDoCarrinho } from "../../store/reducers/carrinho";
+import { adicionarAoCarrinho, removerDoCarrinho } from "../../store/reducers/carrinho";
 
 const CardCarrinho = (props) => {
   const dispatch = useDispatch();
   const [like, setLike] = useState(false);
-  const [quantidade, setQuantidade] = useState(1);
 
   const darLike = () => {
     setLike(!like);
-  };
-
-  const mudaQuantidade = (num) => {
-    if (quantidade + num != 0) setQuantidade(quantidade + num);
   };
 
   return (
@@ -31,6 +26,7 @@ const CardCarrinho = (props) => {
         </div>
       </div>
       <div className={styles.buttons}>
+
         {like ? (
           <AiFillHeart className={styles.icon} onClick={darLike} />
         ) : (
@@ -38,13 +34,15 @@ const CardCarrinho = (props) => {
         )}
         <MdRemoveCircle
           className={styles.iconButtons}
-          onClick={() => mudaQuantidade(-1)}
+          onClick={() => removerDoCarrinho({preco: props.preco, id: props.id})}
         />
-        <p>{quantidade}</p>
+        <p>{props.quantidade}</p>
+
         <MdAddCircle
           className={styles.iconButtons}
-          onClick={() => mudaQuantidade(+1)}
+          onClick={() => dispatch(adicionarAoCarrinho({preco: props.preco, id: props.id}))}
         />
+
         <button
           onClick={() =>
             dispatch(
