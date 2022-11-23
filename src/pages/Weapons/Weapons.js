@@ -24,10 +24,11 @@ export const Weapons = (props) => {
         skins.map((skin) => {
           return (
             <CardSkin
-              nome={skin.nome}
-              imagem={skin.image}
-              colecao={skin.colecao}
-              preco={"R$ 999"}
+              {...skin}
+              // nome={skin.nome}
+              // imagem={skin.image}
+              // colecao={skin.colecao}
+              // preco={"R$ 999"}
             />
           );
         })}

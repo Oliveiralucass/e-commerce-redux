@@ -10,6 +10,16 @@
   },
 
   {
+    "url": "karambit",
+    "arma": "Karambit",
+    "nome": "Wild Lotus 2",
+    "colecao": "The St Marc Collection",
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
+  },
+
+  {
     "url": "faca-m9-bayonet",
     "arma": "Faca M9 Bayonet",
     "nome": "Wild Lotus",

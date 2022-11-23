@@ -1,29 +1,36 @@
-import React, {useState} from 'react'
-import styles from "./CardSkin.module.css"
-import { useNavigate } from 'react-router-dom'
-import { AiOutlineHeart } from 'react-icons/ai';
-import { FaShoppingCart } from 'react-icons/fa';
-import { AiFillHeart } from 'react-icons/ai';
+import React from "react";
+import styles from "./CardSkin.module.css";
+import { AiOutlineHeart } from "react-icons/ai";
+import { FaShoppingCart } from "react-icons/fa";
+import { AiFillHeart } from "react-icons/ai";
+import { mudarFavorito } from "../../store/reducers/skins";
+import { useDispatch } from "react-redux";
 
-const CardSkin = ({imagem, nome, colecao,preco}) => {
-  const [like, setLike] = useState(false)
-
-  const darLike = () => {
-    setLike(!like)
-  }
+const CardSkin = (props) => {
+  const dispatch = useDispatch();
 
   return (
     <div className={styles.container}>
-      <h3>{nome}</h3>
-      <p>{colecao}</p>
-      <img src={require(`../../assets/${imagem}`)} alt="categoria" />
+      <h3>{props.nome}</h3>
+      <p>{props.colecao}</p>
+      <img src={require(`../../assets/${props.image}`)} alt="categoria" />
       <div className={styles.containerButtons}>
-        <h3>{preco}</h3>
-        {like ? <AiFillHeart className={styles.icon} onClick={darLike}/> : <AiOutlineHeart className={styles.icon} onClick={darLike}/>}
-        <FaShoppingCart className={styles.icon}/>
+        <h3>R$ {props.preco}</h3>
+        {props.favorito ? (
+          <AiFillHeart
+            className={styles.icon}
+            onClick={() => dispatch(mudarFavorito(props.nome))}
+          />
+        ) : (
+          <AiOutlineHeart
+            className={styles.icon}
+            onClick={() => dispatch(mudarFavorito(props.nome))}
+          />
+        )}
+        <FaShoppingCart className={styles.icon} />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default CardSkin;
