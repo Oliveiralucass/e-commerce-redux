@@ -28,6 +28,7 @@ const carrinhoSlice = createSlice({
     },
 
     adicionarQuantidade: (state, { payload }) => {
+      console.log(payload);
         state.items = state.items.map((skinCarrinho) => {
             if(skinCarrinho.id === payload.id) {
                 skinCarrinho.quantidade += 1;
@@ -53,6 +54,6 @@ const carrinhoSlice = createSlice({
   },
 });
 
-export const { adicionarAoCarrinho, removerDoCarrinho } = carrinhoSlice.actions;
+export const { adicionarAoCarrinho, removerDoCarrinho, adicionarQuantidade ,removerQuantidade } = carrinhoSlice.actions;
 
 export default carrinhoSlice.reducer;

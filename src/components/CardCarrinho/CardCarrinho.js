@@ -5,7 +5,7 @@ import { AiFillHeart } from "react-icons/ai";
 import { MdRemoveCircle } from "react-icons/md";
 import { MdAddCircle } from "react-icons/md";
 import { useDispatch } from "react-redux";
-import { adicionarAoCarrinho, removerDoCarrinho } from "../../store/reducers/carrinho";
+import { adicionarAoCarrinho, removerDoCarrinho, adicionarQuantidade, removerQuantidade } from "../../store/reducers/carrinho";
 
 const CardCarrinho = (props) => {
   const dispatch = useDispatch();
@@ -15,6 +15,7 @@ const CardCarrinho = (props) => {
     setLike(!like);
   };
 
+  console.log(props);
   return (
     <div className={styles.container}>
       <div className={styles.infos}>
@@ -34,13 +35,13 @@ const CardCarrinho = (props) => {
         )}
         <MdRemoveCircle
           className={styles.iconButtons}
-          onClick={() => removerDoCarrinho({preco: props.preco, id: props.id})}
+          onClick={() => dispatch(removerQuantidade({preco: props.preco, id: props.id}))}
         />
         <p>{props.quantidade}</p>
 
         <MdAddCircle
           className={styles.iconButtons}
-          onClick={() => dispatch(adicionarAoCarrinho({preco: props.preco, id: props.id}))}
+          onClick={() => dispatch(adicionarQuantidade({preco: props.preco, id: props.id}))}
         />
 
         <button
