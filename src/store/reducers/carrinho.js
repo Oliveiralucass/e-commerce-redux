@@ -33,9 +33,8 @@ const carrinhoSlice = createSlice({
             if(skinCarrinho.id === payload.id) {
                 skinCarrinho.quantidade += 1;
                 state.precoTotal += payload.preco
-
-                return skinCarrinho
             }   
+            return skinCarrinho
         })
     },
 
@@ -44,9 +43,8 @@ const carrinhoSlice = createSlice({
             if(skinCarrinho.id === payload.id) {
                 skinCarrinho.quantidade -= 1;
                 state.precoTotal -= payload.preco
-
-                return skinCarrinho
             }   
+            return skinCarrinho
         })
     },
 
