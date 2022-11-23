@@ -4,6 +4,10 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { FaShoppingCart } from "react-icons/fa";
 import { AiFillHeart } from "react-icons/ai";
 import { mudarFavorito } from "../../store/reducers/skins";
+import {
+  adicionarAoCarrinho,
+  removerDoCarrinho,
+} from "../../store/reducers/carrinho";
 import { useDispatch } from "react-redux";
 
 const CardSkin = (props) => {
@@ -27,7 +31,10 @@ const CardSkin = (props) => {
             onClick={() => dispatch(mudarFavorito(props.nome))}
           />
         )}
-        <FaShoppingCart className={styles.icon} />
+        <FaShoppingCart
+          className={styles.icon}
+          onClick={() => dispatch(adicionarAoCarrinho(props))}
+        />
       </div>
     </div>
   );

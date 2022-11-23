@@ -24,6 +24,7 @@ export const Weapons = (props) => {
         skins.map((skin) => {
           return (
             <CardSkin
+              key={skin.nome}
               {...skin}
               // nome={skin.nome}
               // imagem={skin.image}
