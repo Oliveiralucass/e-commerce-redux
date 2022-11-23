@@ -1,7 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import CardSkin from '../../components/CardSkin/CardSkin'
-import CardCarrinho from '../../components/CardCarrinho/CardCarrinho'
 
 export const Weapons = () => {
   const {gun} = useParams()
