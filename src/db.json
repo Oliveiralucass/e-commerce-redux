@@ -4,15 +4,9 @@
     "arma": "Karambit",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
-  },
-
-  {
-    "url": "karambit",
-    "arma": "Karambit",
-    "nome": "Wild Lotus teste",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -20,7 +14,9 @@
     "arma": "Faca M9 Bayonet",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -28,7 +24,9 @@
     "arma": "Faca Buttefly",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -36,7 +34,9 @@
     "arma": "Faca Buttefly",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -44,7 +44,9 @@
     "arma": "Faca Skeleton",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -52,7 +54,9 @@
     "arma": "AK-47",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -60,7 +64,9 @@
     "arma": "AWP",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -68,7 +74,9 @@
     "arma": "M4A4",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -76,7 +84,9 @@
     "arma": "M4A1-S",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -84,7 +94,9 @@
     "arma": "AUG",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -92,7 +104,9 @@
     "arma": "USP-S",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -100,7 +114,9 @@
     "arma": "Glock-18",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -108,7 +124,9 @@
     "arma": "Desert Eagle",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -116,7 +134,9 @@
     "arma": "P250",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -124,7 +144,9 @@
     "arma": "Five-Seven",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -132,7 +154,9 @@
     "arma": "Five-Seven",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -140,7 +164,9 @@
     "arma": "P90",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -148,7 +174,9 @@
     "arma": "UMP-45",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -156,7 +184,9 @@
     "arma": "MAC-10",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -164,7 +194,9 @@
     "arma": "MP7",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -172,7 +204,9 @@
     "arma": "MP9",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -180,7 +214,9 @@
     "arma": "Cano Curto",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -188,7 +224,9 @@
     "arma": "MAG-7",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -196,7 +234,9 @@
     "arma": "Nova",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -204,7 +244,9 @@
     "arma": "XM1014",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   },
 
   {
@@ -212,6 +254,8 @@
     "arma": "Negev",
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png"
+    "image": "ak-47-wild-lotus.png",
+    "preco": 99.99,
+    "favorito": false
   }
 ]
