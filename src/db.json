@@ -6,7 +6,8 @@
     "colecao": "Chroma case",
     "image": "karambit-doppler-sapphire.png",
     "preco": 11953.0,
-    "favorito": false
+    "favorito": false,
+    "id": "karambit1"
   },
   {
     "url": "karambit",
@@ -15,7 +16,8 @@
     "colecao": "Gamma case",
     "image": "karambit-gamma-doppler-emerald.png",
     "preco": 10958.0,
-    "favorito": false
+    "favorito": false,
+    "id": "karambit2"
   },
   {
     "url": "karambit",
@@ -24,7 +26,8 @@
     "colecao": "Chroma case",
     "image": "karambit-doppler-ruby.png",
     "preco": 8260.0,
-    "favorito": false
+    "favorito": false,
+    "id": "karambit3"
   },
   {
     "url": "karambit",
@@ -33,7 +36,8 @@
     "colecao": "Chroma case",
     "image": "karambit-doppler-black-pearl.png",
     "preco": 5160.0,
-    "favorito": false
+    "favorito": false,
+    "id": "karambit4"
   },
 
   {
@@ -43,7 +47,8 @@
     "colecao": "Chroma case",
     "image": "m9-bayonet-doppler-sapphire.png",
     "preco": 14647.0,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-m9-bayonet1"
   },
   {
     "url": "faca-m9-bayonet",
@@ -52,7 +57,8 @@
     "colecao": "Gamma case",
     "image": "m9-bayonet-gamma-doppler-emerald.png",
     "preco": 12416.0,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-m9-bayonet2"
   },
   {
     "url": "faca-m9-bayonet",
@@ -61,7 +67,8 @@
     "colecao": "Chroma case",
     "image": "m9-bayonet-doppler-ruby.png",
     "preco": 6721.0,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-m9-bayonet3"
   },
   {
     "url": "faca-m9-bayonet",
@@ -70,7 +77,8 @@
     "colecao": "Weapon case",
     "image": "m9-bayonet-crimson-web.png",
     "preco": 534.0,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-m9-bayonet4"
   },
 
   {
@@ -80,7 +88,8 @@
     "colecao": "Spectrum case",
     "image": "faca-butterfly-doppler-sapphire.png",
     "preco": 18514.0,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-butterfly1"
   },
   {
     "url": "faca-butterfly",
@@ -89,7 +98,8 @@
     "colecao": "Operation riptide case",
     "image": "faca-butterfly-gamma-doppler-emerald.png",
     "preco": 20830.0,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-butterfly2"
   },
   {
     "url": "faca-butterfly",
@@ -98,7 +108,8 @@
     "colecao": "Spectrum case",
     "image": "faca-butterfly-doppler-ruby.png",
     "preco": 10516.0,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-butterfly3"
   },
   {
     "url": "faca-butterfly",
@@ -107,7 +118,8 @@
     "colecao": "Operation breakout weapon case",
     "image": "faca-butterfly-crimson-web.png",
     "preco": 771.0,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-butterfly4"
   },
 
   {
@@ -117,7 +129,8 @@
     "colecao": "Prisma case",
     "image": "faca-talon-doppler-sapphire.png",
     "preco": 6901.0,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-talon1"
   },
   {
     "url": "faca-talon",
@@ -126,7 +139,8 @@
     "colecao": "Prisma case",
     "image": "faca-talon-doppler-ruby.png",
     "preco": 4990.0,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-talon2"
   },
   {
     "url": "faca-talon",
@@ -135,7 +149,8 @@
     "colecao": "Horizon case",
     "image": "faca-talon-crimson-web.png",
     "preco": 397.9,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-talon3"
   },
   {
     "url": "faca-talon",
@@ -144,7 +159,8 @@
     "colecao": "Horizon case",
     "image": "faca-talon-fade.png",
     "preco": 1393.0,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-talon4"
   },
 
   {
@@ -154,7 +170,8 @@
     "colecao": "Shattered web case",
     "image": "faca-skeleton-crimson-web.png",
     "preco": 882.29,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-skeleton1"
   },
   {
     "url": "faca-skeleton",
@@ -163,7 +180,8 @@
     "colecao": "Shattered web case",
     "image": "faca-skeleton-fade.png",
     "preco": 2072.5,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-skeleton2"
   },
   {
     "url": "faca-skeleton",
@@ -172,7 +190,8 @@
     "colecao": "Shattered web case",
     "image": "faca-skeleton-case-hardened.png",
     "preco": 522.0,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-skeleton3"
   },
   {
     "url": "faca-skeleton",
@@ -181,7 +200,8 @@
     "colecao": "Shattered web case",
     "image": "faca-skeleton-slaughter.png",
     "preco": 1034.9,
-    "favorito": false
+    "favorito": false,
+    "id": "faca-skeleton4"
   },
 
   {
@@ -191,7 +211,8 @@
     "colecao": "The St Marc Collection",
     "image": "ak-47-wild-lotus.png",
     "preco": 2386.0,
-    "favorito": false
+    "favorito": false,
+    "id": "ak-471"
   },
   {
     "url": "ak-47",
@@ -200,7 +221,8 @@
     "colecao": "The huntsman collection",
     "image": "ak-47-vulcan.png",
     "preco": 109.0,
-    "favorito": false
+    "favorito": false,
+    "id": "ak-472"
   },
   {
     "url": "ak-47",
@@ -209,7 +231,8 @@
     "colecao": "The danger zone collection",
     "image": "ak-47-asiimov.png",
     "preco": 46.44,
-    "favorito": false
+    "favorito": false,
+    "id": "ak-473"
   },
   {
     "url": "ak-47",
@@ -218,7 +241,8 @@
     "colecao": "The spectrum 2 collection",
     "image": "ak-47-the-empress.png",
     "preco": 46.84,
-    "favorito": false
+    "favorito": false,
+    "id": "ak-474"
   },
 
   {
@@ -228,7 +252,8 @@
     "colecao": "The cobblestone collection",
     "image": "awp-dragon-lore.png",
     "preco": 3994.99,
-    "favorito": false
+    "favorito": false,
+    "id": "awp1"
   },
   {
     "url": "awp",
@@ -237,7 +262,8 @@
     "colecao": "The gods and monsters collection",
     "image": "awp-medusa.png",
     "preco": 2142.2,
-    "favorito": false
+    "favorito": false,
+    "id": "awp2"
   },
   {
     "url": "awp",
@@ -246,7 +272,8 @@
     "colecao": "The control collection",
     "image": "awp-fade.png",
     "preco": 996.69,
-    "favorito": false
+    "favorito": false,
+    "id": "awp3"
   },
   {
     "url": "awp",
@@ -255,7 +282,8 @@
     "colecao": "The eSports 2013 collection",
     "image": "awp-boom.png",
     "preco": 113.6,
-    "favorito": false
+    "favorito": false,
+    "id": "awp4"
   },
 
   {
@@ -265,7 +293,8 @@
     "colecao": "The huntsman collection",
     "image": "m4a4-howl.png",
     "preco": 8379.0,
-    "favorito": false
+    "favorito": false,
+    "id": "m4a41"
   },
   {
     "url": "m4a4",
@@ -274,7 +303,8 @@
     "colecao": "The gods and monsters collection",
     "image": "m4a4-poseidon.png",
     "preco": 971.0,
-    "favorito": false
+    "favorito": false,
+    "id": "m4a42"
   },
   {
     "url": "m4a4",
@@ -283,7 +313,8 @@
     "colecao": "The winter offensive collection",
     "image": "m4a4-howl.png",
     "preco": 113.5,
-    "favorito": false
+    "favorito": false,
+    "id": "m4a43"
   },
   {
     "url": "m4a4",
@@ -292,7 +323,8 @@
     "colecao": "The prisma collection",
     "image": "m4a4-the-emperor.png",
     "preco": 20.77,
-    "favorito": false
+    "favorito": false,
+    "id": "m4a44"
   },
 
   {
@@ -302,7 +334,8 @@
     "colecao": "The chop shop collection",
     "image": "m4a1-s-hot-rod.png",
     "preco": 599.99,
-    "favorito": false
+    "favorito": false,
+    "id": "m4a1-s1"
   },
   {
     "url": "m4a1-s",
@@ -311,7 +344,8 @@
     "colecao": "The gods and monsters collection",
     "image": "m4a1-s-icarus-fell.png",
     "preco": 506.99,
-    "favorito": false
+    "favorito": false,
+    "id": "m4a1-s2"
   },
   {
     "url": "m4a1-s",
@@ -320,7 +354,8 @@
     "colecao": "The operation broken fang collection",
     "image": "m4a1-s-printstream.png",
     "preco": 161.6,
-    "favorito": false
+    "favorito": false,
+    "id": "m4a1-s3"
   },
   {
     "url": "m4a1-s",
@@ -329,7 +364,8 @@
     "colecao": "The control collection",
     "image": "m4a1-s-blue-phosphor.png",
     "preco": 310.5,
-    "favorito": false
+    "favorito": false,
+    "id": "m4a1-s4"
   },
 
   {
@@ -339,7 +375,8 @@
     "colecao": "The assault collection",
     "image": "aug-hot-rod.png",
     "preco": 271.5,
-    "favorito": false
+    "favorito": false,
+    "id": "aug1"
   },
   {
     "url": "aug",
@@ -348,7 +385,8 @@
     "colecao": "The prisma collection",
     "image": "aug-momentum.png",
     "preco": 2.93,
-    "favorito": false
+    "favorito": false,
+    "id": "aug2"
   },
   {
     "url": "aug",
@@ -357,7 +395,8 @@
     "colecao": "The arms deal collection",
     "image": "aug-wings.png",
     "preco": 13.27,
-    "favorito": false
+    "favorito": false,
+    "id": "aug3"
   },
   {
     "url": "aug",
@@ -366,7 +405,8 @@
     "colecao": "The huntsman collection",
     "image": "aug-torque.png",
     "preco": 6.7,
-    "favorito": false
+    "favorito": false,
+    "id": "aug4"
   },
 
   {
@@ -376,7 +416,8 @@
     "colecao": "The Recoil Collection",
     "image": "usp-s-printstream.png",
     "preco": 66.6,
-    "favorito": false
+    "favorito": false,
+    "id": "usp-s1"
   },
 
   {
@@ -386,7 +427,8 @@
     "colecao": "The Shadow Collection",
     "image": "usp-s-kill-confirmed.png",
     "preco": 37.81,
-    "favorito": false
+    "favorito": false,
+    "id": "usp-s2"
   },
 
   {
@@ -396,7 +438,8 @@
     "colecao": "The Control Collection",
     "image": "usp-s-target-acquired.png",
     "preco": 110.3,
-    "favorito": false
+    "favorito": false,
+    "id": "usp-s3"
   },
 
   {
@@ -406,7 +449,8 @@
     "colecao": "The 2021 Train Collection",
     "image": "usp-s-whiteout.png",
     "preco": 3.9,
-    "favorito": false
+    "favorito": false,
+    "id": "usp-s4"
   },
 
   {
@@ -416,7 +460,8 @@
     "colecao": "The Assault Collection",
     "image": "glock-18-fade.png",
     "preco": 1321.97,
-    "favorito": false
+    "favorito": false,
+    "id": "glock-181"
   },
 
   {
@@ -426,7 +471,8 @@
     "colecao": "The 2021 Train Collection",
     "image": "glock-18-gamma-doppler-emerald.png",
     "preco": 100.0,
-    "favorito": false
+    "favorito": false,
+    "id": "glock-182"
   },
 
   {
@@ -436,7 +482,8 @@
     "colecao": "The St. Marc Collection",
     "image": "glock-18-synth-leaf.png",
     "preco": 151.65,
-    "favorito": false
+    "favorito": false,
+    "id": "glock-183"
   },
 
   {
@@ -446,7 +493,8 @@
     "colecao": "The Arms Deal Collection",
     "image": "glock-18-dragon-tattoo.png",
     "preco": 65.24,
-    "favorito": false
+    "favorito": false,
+    "id": "glock-184"
   },
 
   {
@@ -456,7 +504,8 @@
     "colecao": "The Dust Collection",
     "image": "desert-eagle-blaze.png",
     "preco": 565.44,
-    "favorito": false
+    "favorito": false,
+    "id": "desert-eagle1"
   },
   {
     "url": "desert-eagle",
@@ -465,7 +514,8 @@
     "colecao": "The Cobblestone Collection",
     "image": "desert-eagle-hand-cannon.png",
     "preco": 325.19,
-    "favorito": false
+    "favorito": false,
+    "id": "desert-eagle2"
   },
 
   {
@@ -475,7 +525,8 @@
     "colecao": "The 2021 Mirage Collection",
     "image": "desert-eagle-fennec-fox.png",
     "preco": 204.49,
-    "favorito": false
+    "favorito": false,
+    "id": "desert-eagle3"
   },
 
   {
@@ -485,7 +536,8 @@
     "colecao": "The Rising Sun Collection",
     "image": "desert-eagle-sunset-storm.png",
     "preco": 149.11,
-    "favorito": false
+    "favorito": false,
+    "id": "desert-eagle4"
   },
 
   {
@@ -495,7 +547,8 @@
     "colecao": "The Militia Collection",
     "image": "p250-modern-hunter.png",
     "preco": 5.29,
-    "favorito": false
+    "favorito": false,
+    "id": "p2501"
   },
 
   {
@@ -505,7 +558,8 @@
     "colecao": "The Chop Shop Collection",
     "image": "p250-whiteout.png",
     "preco": 11.32,
-    "favorito": false
+    "favorito": false,
+    "id": "p2502"
   },
 
   {
@@ -515,7 +569,8 @@
     "colecao": "The Nuke Collection",
     "image": "p250-nuclear-threat.png",
     "preco": 10.43,
-    "favorito": false
+    "favorito": false,
+    "id": "p2503"
   },
 
   {
@@ -525,7 +580,8 @@
     "colecao": "The Arms Deal 3 Collection",
     "image": "p250-undertow.png",
     "preco": 23.52,
-    "favorito": false
+    "favorito": false,
+    "id": "p2504"
   },
 
   {
@@ -535,7 +591,8 @@
     "colecao": "The Rising Sun Collection",
     "image": "five-seven-neon-kimono.png",
     "preco": 211.19,
-    "favorito": false
+    "favorito": false,
+    "id": "five-seven1"
   },
 
   {
@@ -545,7 +602,8 @@
     "colecao": "The 2021 Vertigo Collection",
     "image": "five-seven-fall-hazard.png",
     "preco": 95.51,
-    "favorito": false
+    "favorito": false,
+    "id": "five-seven2"
   },
 
   {
@@ -555,7 +613,8 @@
     "colecao": "The Assault Collection",
     "image": "five-seven-candy-apple.png",
     "preco": 58.4,
-    "favorito": false
+    "favorito": false,
+    "id": "five-seven3"
   },
 
   {
@@ -565,7 +624,8 @@
     "colecao": "Operation Hydra",
     "image": "five-seven-hyper-beast.png",
     "preco": 15.26,
-    "favorito": false
+    "favorito": false,
+    "id": "five-seven4"
   },
 
   {
@@ -575,7 +635,8 @@
     "colecao": "The St Marc Collection",
     "image": "ak-47-wild-lotus.png",
     "preco": 99.99,
-    "favorito": false
+    "favorito": false,
+    "id": "five-seven1"
   },
 
   {
@@ -585,7 +646,8 @@
     "colecao": "The St Marc Collection",
     "image": "ak-47-wild-lotus.png",
     "preco": 99.99,
-    "favorito": false
+    "favorito": false,
+    "id": "mac-101"
   },
 
   {
@@ -595,7 +657,8 @@
     "colecao": "The St Marc Collection",
     "image": "ak-47-wild-lotus.png",
     "preco": 99.99,
-    "favorito": false
+    "favorito": false,
+    "id": "mp71"
   },
 
   {
@@ -605,7 +668,8 @@
     "colecao": "The St Marc Collection",
     "image": "ak-47-wild-lotus.png",
     "preco": 99.99,
-    "favorito": false
+    "favorito": false,
+    "id": "mp91"
   },
 
   {
@@ -615,7 +679,8 @@
     "colecao": "The St Marc Collection",
     "image": "ak-47-wild-lotus.png",
     "preco": 99.99,
-    "favorito": false
+    "favorito": false,
+    "id": "cano-curto1"
   },
 
   {
@@ -625,7 +690,8 @@
     "colecao": "The St Marc Collection",
     "image": "ak-47-wild-lotus.png",
     "preco": 99.99,
-    "favorito": false
+    "favorito": false,
+    "id": "mag-71"
   },
 
   {
@@ -635,7 +701,8 @@
     "colecao": "The St Marc Collection",
     "image": "ak-47-wild-lotus.png",
     "preco": 99.99,
-    "favorito": false
+    "favorito": false,
+    "id": "nova1"
   },
 
   {
@@ -645,7 +712,8 @@
     "colecao": "The St Marc Collection",
     "image": "ak-47-wild-lotus.png",
     "preco": 99.99,
-    "favorito": false
+    "favorito": false,
+    "id": "xm10141"
   },
 
   {
@@ -655,6 +723,7 @@
     "colecao": "The St Marc Collection",
     "image": "ak-47-wild-lotus.png",
     "preco": 99.99,
-    "favorito": false
+    "favorito": false,
+    "id": "negev1"
   }
 ]
