@@ -19,22 +19,24 @@ const CardSkin = (props) => {
       <p>{props.colecao}</p>
       <img src={require(`../../assets/${props.image}`)} alt="categoria" />
       <div className={styles.containerButtons}>
-        <h3>R$ {props.preco}</h3>
-        {props.favorito ? (
-          <AiFillHeart
+        <h4>R$ {props.preco}</h4>
+        <div>
+          {props.favorito ? (
+            <AiFillHeart
+              className={styles.icon}
+              onClick={() => dispatch(mudarFavorito(props.nome))}
+            />
+          ) : (
+            <AiOutlineHeart
+              className={styles.icon}
+              onClick={() => dispatch(mudarFavorito(props.nome))}
+            />
+          )}
+          <FaShoppingCart
             className={styles.icon}
-            onClick={() => dispatch(mudarFavorito(props.nome))}
+            onClick={() => dispatch(adicionarAoCarrinho(props))}
           />
-        ) : (
-          <AiOutlineHeart
-            className={styles.icon}
-            onClick={() => dispatch(mudarFavorito(props.nome))}
-          />
-        )}
-        <FaShoppingCart
-          className={styles.icon}
-          onClick={() => dispatch(adicionarAoCarrinho(props))}
-        />
+        </div>
       </div>
     </div>
   );
