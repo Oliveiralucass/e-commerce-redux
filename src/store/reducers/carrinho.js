@@ -23,7 +23,8 @@ const carrinhoSlice = createSlice({
     },
 
     removerDoCarrinho: (state, { payload }) => {
-      state.precoTotal -= payload.preco;
+      let skinPrecoAcumulado = payload.preco * payload.quantidade
+      state.precoTotal -= skinPrecoAcumulado;
       state.items = state.items.filter((skin) => skin.id !== payload.id);
     },
 
@@ -40,10 +41,12 @@ const carrinhoSlice = createSlice({
 
     removerQuantidade: (state, { payload }) => {
         state.items = state.items.map((skinCarrinho) => {
+          if(skinCarrinho.quantidade > 1) {
             if(skinCarrinho.id === payload.id) {
                 skinCarrinho.quantidade -= 1;
                 state.precoTotal -= payload.preco
             }   
+          }
             return skinCarrinho
         })
     },
