@@ -18,7 +18,7 @@ export const Carrinho = () => {
 
       <div className={styles.main}>
         {carrinho &&
-          carrinho.map((skin) => {
+          carrinho.items.map((skin) => {
             return (
               <div key={`${skin.arma} ${skin.nome}`}>
                 <CardCarrinho {...skin} />
@@ -30,7 +30,7 @@ export const Carrinho = () => {
           <div>
             <p>Resumo da compra</p>
             <p>
-              Subtotal: <strong>10.99</strong>
+              Subtotal: <strong>{carrinho.precoTotal}</strong>
             </p>
           </div>
           <button>Finalizar Compra</button>

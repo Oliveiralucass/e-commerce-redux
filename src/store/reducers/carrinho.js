@@ -1,15 +1,31 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+const initialState = {
+  precoTotal: 0,
+  items: [],
+};
+
 const carrinhoSlice = createSlice({
   name: "carrinho",
-  initialState: [],
+  initialState,
   reducers: {
     adicionarAoCarrinho: (state, { payload }) => {
-      state.push(payload);
+      let existe = state.items.some((item) => item.nome === payload.nome);
+      if (!existe) {
+        return {
+          precoTotal: state.precoTotal + payload.preco,
+          items: [...state.items, { ...payload, quantidade: 1 }],
+        };
+      } else {
+        state.precoTotal -= payload.preco;
+        state.items = state.items.filter((item) => item.nome !== payload.nome);
+      }
     },
     removerDoCarrinho: (state, { payload }) => {
-      state = state.filter((skin) => skin.nome !== payload);
+      state.precoTotal -= payload.preco;
+      state.items = state.items.filter((skin) => skin.nome !== payload.nome);
     },
+    resetarCarrinho: () => initialState,
   },
 });
 
