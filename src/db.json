@@ -375,7 +375,7 @@
     "nome": "Printstream",
     "colecao": "The Recoil Collection",
     "image": "usp-s-printstream.png",
-    "preco": 66.60,
+    "preco": 66.6,
     "favorito": false
   },
 
@@ -384,7 +384,7 @@
     "arma": "USP-S",
     "nome": "Kill Confirmed",
     "colecao": "The Shadow Collection",
-    "image": "usp-s-killl-confirmed.png",
+    "image": "usp-s-kill-confirmed.png",
     "preco": 37.81,
     "favorito": false
   },
@@ -395,7 +395,7 @@
     "nome": "Target Acquired",
     "colecao": "The Control Collection",
     "image": "usp-s-target-acquired.png",
-    "preco": 110.30,
+    "preco": 110.3,
     "favorito": false
   },
 
@@ -405,7 +405,7 @@
     "nome": "Whiteout",
     "colecao": "The 2021 Train Collection",
     "image": "usp-s-whiteout.png",
-    "preco": 3.90,
+    "preco": 3.9,
     "favorito": false
   },
 
@@ -425,7 +425,7 @@
     "nome": "Gamma Doppler Emerald",
     "colecao": "The 2021 Train Collection",
     "image": "glock-18-gamma-doppler-emerald.png",
-    "preco": 100.00,
+    "preco": 100.0,
     "favorito": false
   },
 
@@ -449,7 +449,6 @@
     "favorito": false
   },
 
-  
   {
     "url": "desert-eagle",
     "arma": "Desert Eagle",
@@ -468,7 +467,7 @@
     "preco": 325.19,
     "favorito": false
   },
-  
+
   {
     "url": "desert-eagle",
     "arma": "Desert Eagle",
@@ -478,7 +477,7 @@
     "preco": 204.49,
     "favorito": false
   },
-  
+
   {
     "url": "desert-eagle",
     "arma": "Desert Eagle",
@@ -555,7 +554,7 @@
     "nome": "Candy Apple",
     "colecao": "The Assault Collection",
     "image": "five-seven-candy-apple.png",
-    "preco": 58.40,
+    "preco": 58.4,
     "favorito": false
   },
 
