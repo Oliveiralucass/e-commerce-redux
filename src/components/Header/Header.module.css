@@ -24,7 +24,7 @@
   gap: 5rem;
 }
 
-.container > div  div{
+.container > div div {
   display: flex;
   align-items: center;
   gap: 1.25rem;
@@ -36,11 +36,10 @@
   gap: 1.5rem;
 }
 
-.container  a {
+.container a {
   color: var(--branco);
   transition: 0.5s;
-  font-size: 1.10rem;
-
+  font-size: 1.1rem;
 }
 
 .container a:hover {
@@ -65,7 +64,6 @@
   color: var(--branco);
   font-size: 1.25rem;
 }
-
 
 .cart:hover {
   color: var(--roxo-detail);
