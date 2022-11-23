@@ -20,7 +20,7 @@ export const Carrinho = () => {
         {carrinho &&
           carrinho.items.map((skin) => {
             return (
-              <div key={`${skin.arma} ${skin.nome}`}>
+              <div key={skin.id}>
                 <CardCarrinho {...skin} />
               </div>
             );

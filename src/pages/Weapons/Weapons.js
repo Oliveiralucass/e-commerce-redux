@@ -17,7 +17,7 @@ export const Weapons = () => {
     <div className={styles.main}>
       {skins &&
         skins.map((skin) => {
-          return <CardSkin key={`${skin.arma} ${skin.nome}`} {...skin} />;
+          return <CardSkin key={skin.id} {...skin} />;
         })}
     </div>
   );

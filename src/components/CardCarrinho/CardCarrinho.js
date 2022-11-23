@@ -48,7 +48,7 @@ const CardCarrinho = (props) => {
         <button
           onClick={() =>
             dispatch(
-              removerDoCarrinho({ nome: props.nome, preco: props.preco })
+              removerDoCarrinho({ id: props.id, preco: props.preco })
             )
           }
         >

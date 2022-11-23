@@ -24,12 +24,12 @@ const CardSkin = (props) => {
           {props.favorito ? (
             <AiFillHeart
               className={styles.icon}
-              onClick={() => dispatch(mudarFavorito(props.nome))}
+              onClick={() => dispatch(mudarFavorito(props.id))}
             />
           ) : (
             <AiOutlineHeart
               className={styles.icon}
-              onClick={() => dispatch(mudarFavorito(props.nome))}
+              onClick={() => dispatch(mudarFavorito(props.id))}
             />
           )}
           <FaShoppingCart

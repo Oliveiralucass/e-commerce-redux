@@ -10,7 +10,7 @@ const carrinhoSlice = createSlice({
   initialState,
   reducers: {
     adicionarAoCarrinho: (state, { payload }) => {
-      let existe = state.items.some((item) => item.nome === payload.nome);
+      let existe = state.items.some((item) => item.id === payload.id);
       if (!existe) {
         return {
           precoTotal: state.precoTotal + payload.preco,
@@ -18,13 +18,37 @@ const carrinhoSlice = createSlice({
         };
       } else {
         state.precoTotal -= payload.preco;
-        state.items = state.items.filter((item) => item.nome !== payload.nome);
+        state.items = state.items.filter((item) => item.id !== payload.id);
       }
     },
+
     removerDoCarrinho: (state, { payload }) => {
       state.precoTotal -= payload.preco;
-      state.items = state.items.filter((skin) => skin.nome !== payload.nome);
+      state.items = state.items.filter((skin) => skin.id !== payload.id);
     },
+
+    adicionarQuantidade: (state, { payload }) => {
+        state.items = state.items.map((skinCarrinho) => {
+            if(skinCarrinho.id === payload.id) {
+                skinCarrinho.quantidade += 1;
+                state.precoTotal += payload.preco
+
+                return skinCarrinho
+            }   
+        })
+    },
+
+    removerQuantidade: (state, { payload }) => {
+        state.items = state.items.map((skinCarrinho) => {
+            if(skinCarrinho.id === payload.id) {
+                skinCarrinho.quantidade -= 1;
+                state.precoTotal -= payload.preco
+
+                return skinCarrinho
+            }   
+        })
+    },
+
     resetarCarrinho: () => initialState,
   },
 });
