@@ -1,15 +1,29 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
-import CardSkin from '../../components/CardSkin/CardSkin'
-import CardCarrinho from '../../components/CardCarrinho/CardCarrinho'
+import React from "react";
+import { useParams } from "react-router-dom";
+import CardSkin from "../../components/CardSkin/CardSkin";
+import { useSelector } from "react-redux";
+import styles from "./Weapons.module.css";
 
 export const Weapons = () => {
-  const {gun} = useParams()
-  console.log(gun)
+  const { gun } = useParams();
+
+  const skins = useSelector((state) =>
+    state.skins.filter((skin) => {
+      return skin.url === gun;
+    })
+  );
 
   return (
-    <div>
-      <CardSkin nome={"teste"} imagem={"ak-47.png"} colecao={"caixa x"} preco={"R$ 10.99"}/>
+    <div className={styles.main}>
+      {skins &&
+        skins.map((skin) => {
+          return (
+            <CardSkin
+              key={skin.nome}
+              {...skin}
+            />
+          );
+        })}
     </div>
-  )
-}
+  );
+};

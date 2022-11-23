@@ -5,7 +5,7 @@ import { AiFillHeart } from 'react-icons/ai';
 import { MdRemoveCircle } from 'react-icons/md';
 import { MdAddCircle } from 'react-icons/md';
 
-const CardCarrinho = ({imagem, nome, colecao,preco}) => {
+const CardCarrinho = (props) => {
   const [like, setLike] = useState(false)
   const [quantidade, setQuantidade] = useState(1)
 
@@ -21,11 +21,11 @@ const CardCarrinho = ({imagem, nome, colecao,preco}) => {
   return (
     <div className={styles.container}>
       <div className={styles.infos}>
-      <img src={require(`../../assets/${imagem}`)} alt="categoria" />
+      <img src={require(`../../assets/${props.image}`)} alt="categoria" />
       <div>
-        <h2>{nome}</h2>
-        <h4>{colecao}</h4>
-        <h3>{preco}</h3>
+        <h2>{props.nome}</h2>
+        <h4>{props.colecao}</h4>
+        <h3>{props.preco}</h3>
         </div>
       </div>
       <div className={styles.buttons}>
