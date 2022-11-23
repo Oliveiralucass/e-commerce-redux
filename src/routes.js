@@ -6,24 +6,28 @@ import { NotFind } from './pages/NotFind/NotFind'
 import { Weapons } from './pages/Weapons/Weapons'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
+import { Provider } from 'react-redux'
+import store  from './store/store'
 
 export const AppRoutes = () => {
   return (
     <BrowserRouter>
-    <Header />
-      <Routes>
-        <Route path='/' element={<Home />} />
+    <Provider store={store}>
+      <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
 
-        <Route path='/carrinho' element={<Carrinho />} />
+          <Route path='/carrinho' element={<Carrinho />} />
 
-        <Route path='/weapons'>
-          <Route index element ={<Weapons />}/>
-          <Route path='/weapons/:gun' element={<Weapons />} />
-        </Route>
-        
-        <Route path='*' element={<NotFind />} />
-      </Routes>
+          <Route path='/weapons'>
+            <Route index element ={<Weapons />}/>
+            <Route path='/weapons/:gun' element={<Weapons />} />
+          </Route>
+          
+          <Route path='*' element={<NotFind />} />
+        </Routes>
       <Footer />
+      </Provider>
     </BrowserRouter>
   )
 }
