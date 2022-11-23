@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./Header.module.css"
 import { FaShoppingCart } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
+import { Busca } from '../Busca/Busca';
 
 const Header = () => {
   const navigate = useNavigate()

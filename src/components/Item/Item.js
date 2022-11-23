@@ -69,7 +69,7 @@ return (
                     <span>{String(quantidade || 0).padStart(2, '0')}</span>
                     <AiFillPlusCircle
                       {...quantidadeProps}
-                      onClick={() => dispatch(mudarQuantidade({ id, quantidade: +1 }))}
+                      onClick={() => dispatch(mudarQuantidade({ id, quantidade: + 1 }))}
                     />
                   </div>
                 )
