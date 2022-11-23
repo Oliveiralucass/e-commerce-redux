@@ -3,7 +3,7 @@ import { Banner } from "../../components/Banner/Banner";
 import carrinhoBanner from "../../assets/home-banner.jpg";
 import styles from "./Carrinho.module.css";
 import CardCarrinho from "../../components/CardCarrinho/CardCarrinho";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 export const Carrinho = () => {
   const carrinho = useSelector((state) => state.carrinho);
@@ -16,61 +16,15 @@ export const Carrinho = () => {
         bannerTexto={"Confira quais skins foram adicionadas em seu carrinho"}
       />
 
+
       <div className={styles.main}>
-        <div>
-          <CardCarrinho
-            nome={"teste"}
-            imagem={"ak-47.png"}
-            colecao={"caixa x"}
-            preco={"R$ 10.99"}
-          />
-        </div>
-
-        <div>
-          <CardCarrinho
-            nome={"teste"}
-            imagem={"ak-47.png"}
-            colecao={"caixa x"}
-            preco={"R$ 10.99"}
-          />
-        </div>
-
-        <div>
-          <CardCarrinho
-            nome={"teste"}
-            imagem={"ak-47.png"}
-            colecao={"caixa x"}
-            preco={"R$ 10.99"}
-          />
-        </div>
-
-        <div>
-          <CardCarrinho
-            nome={"teste"}
-            imagem={"ak-47.png"}
-            colecao={"caixa x"}
-            preco={"R$ 10.99"}
-          />
-        </div>
-
-        <div>
-          <CardCarrinho
-            nome={"teste"}
-            imagem={"ak-47.png"}
-            colecao={"caixa x"}
-            preco={"R$ 10.99"}
-          />
-        </div>
-
-        <div>
-          <CardCarrinho
-            nome={"teste"}
-            imagem={"ak-47.png"}
-            colecao={"caixa x"}
-            preco={"R$ 10.99"}
-          />
-        </div>
-
+        
+        {carrinho && carrinho.map((skin) => {
+          return  <div key={skin.nome}>
+              <CardCarrinho {...skin}/>
+            </div>
+        })}
+        
         <div className={styles.carrinhoCheckout}>
           <div>
             <p>Resumo da compra</p>
