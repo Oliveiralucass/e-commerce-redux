@@ -372,70 +372,200 @@
   {
     "url": "usp-s",
     "arma": "USP-S",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Printstream",
+    "colecao": "The Recoil Collection",
+    "image": "usp-s-printstream.png",
+    "preco": 66.60,
+    "favorito": false
+  },
+
+  {
+    "url": "usp-s",
+    "arma": "USP-S",
+    "nome": "Kill Confirmed",
+    "colecao": "The Shadow Collection",
+    "image": "usp-s-killl-confirmed.png",
+    "preco": 37.81,
+    "favorito": false
+  },
+
+  {
+    "url": "usp-s",
+    "arma": "USP-S",
+    "nome": "Target Acquired",
+    "colecao": "The Control Collection",
+    "image": "usp-s-target-acquired.png",
+    "preco": 110.30,
+    "favorito": false
+  },
+
+  {
+    "url": "usp-s",
+    "arma": "USP-S",
+    "nome": "Whiteout",
+    "colecao": "The 2021 Train Collection",
+    "image": "usp-s-whiteout.png",
+    "preco": 3.90,
     "favorito": false
   },
 
   {
     "url": "glock-18",
     "arma": "Glock-18",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Fade",
+    "colecao": "The Assault Collection",
+    "image": "glock-18-fade.png",
+    "preco": 1321.97,
     "favorito": false
   },
 
   {
+    "url": "glock-18",
+    "arma": "Glock-18",
+    "nome": "Gamma Doppler Emerald",
+    "colecao": "The 2021 Train Collection",
+    "image": "glock-18-gamma-doppler-emerald.png",
+    "preco": 100.00,
+    "favorito": false
+  },
+
+  {
+    "url": "glock-18",
+    "arma": "Glock-18",
+    "nome": "Synth Leaf",
+    "colecao": "The St. Marc Collection",
+    "image": "glock-18-synth-leaf.png",
+    "preco": 151.65,
+    "favorito": false
+  },
+
+  {
+    "url": "glock-18",
+    "arma": "Glock-18",
+    "nome": "Dragon Tattoo",
+    "colecao": "The Arms Deal Collection",
+    "image": "glock-18-dragon-tattoo.png",
+    "preco": 65.24,
+    "favorito": false
+  },
+
+  
+  {
     "url": "desert-eagle",
     "arma": "Desert Eagle",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Blaze",
+    "colecao": "The Dust Collection",
+    "image": "desert-eagle-blaze.png",
+    "preco": 565.44,
+    "favorito": false
+  },
+  {
+    "url": "desert-eagle",
+    "arma": "Desert Eagle",
+    "nome": "Hand Cannon",
+    "colecao": "The Cobblestone Collection",
+    "image": "desert-eagle-hand-cannon.png",
+    "preco": 325.19,
+    "favorito": false
+  },
+  
+  {
+    "url": "desert-eagle",
+    "arma": "Desert Eagle",
+    "nome": "Fennec Fox",
+    "colecao": "The 2021 Mirage Collection",
+    "image": "desert-eagle-fennec-fox.png",
+    "preco": 204.49,
+    "favorito": false
+  },
+  
+  {
+    "url": "desert-eagle",
+    "arma": "Desert Eagle",
+    "nome": "Sunset Storm",
+    "colecao": "The Rising Sun Collection",
+    "image": "desert-eagle-sunset-storm.png",
+    "preco": 149.11,
     "favorito": false
   },
 
   {
     "url": "p250",
     "arma": "P250",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Modern Hunter",
+    "colecao": "The Militia Collection",
+    "image": "p250-modern-hunter.png",
+    "preco": 5.29,
+    "favorito": false
+  },
+
+  {
+    "url": "p250",
+    "arma": "P250",
+    "nome": "Whiteout",
+    "colecao": "The Chop Shop Collection",
+    "image": "p250-whiteout.png",
+    "preco": 11.32,
+    "favorito": false
+  },
+
+  {
+    "url": "p250",
+    "arma": "P250",
+    "nome": "Nuclear Threat",
+    "colecao": "The Nuke Collection",
+    "image": "p250-nuclear-threat.png",
+    "preco": 10.43,
+    "favorito": false
+  },
+
+  {
+    "url": "p250",
+    "arma": "P250",
+    "nome": "Undertow",
+    "colecao": "The Arms Deal 3 Collection",
+    "image": "p250-undertow.png",
+    "preco": 23.52,
     "favorito": false
   },
 
   {
     "url": "five-seven",
     "arma": "Five-Seven",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Neon Kimono",
+    "colecao": "The Rising Sun Collection",
+    "image": "five-seven-neon-kimono.png",
+    "preco": 211.19,
     "favorito": false
   },
 
   {
     "url": "five-seven",
     "arma": "Five-Seven",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "nome": "Fall Hazard",
+    "colecao": "The 2021 Vertigo Collection",
+    "image": "five-seven-fall-hazard.png",
+    "preco": 95.51,
     "favorito": false
   },
 
   {
-    "url": "p90",
-    "arma": "P90",
-    "nome": "Wild Lotus",
-    "colecao": "The St Marc Collection",
-    "image": "ak-47-wild-lotus.png",
-    "preco": 99.99,
+    "url": "five-seven",
+    "arma": "Five-Seven",
+    "nome": "Candy Apple",
+    "colecao": "The Assault Collection",
+    "image": "five-seven-candy-apple.png",
+    "preco": 58.40,
+    "favorito": false
+  },
+
+  {
+    "url": "five-seven",
+    "arma": "Five-Seven",
+    "nome": "Hyper Beast",
+    "colecao": "Operation Hydra",
+    "image": "five-seven-hyper-beast.png",
+    "preco": 15.26,
     "favorito": false
   },
 
