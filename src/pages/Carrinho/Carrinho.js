@@ -4,8 +4,10 @@ import carrinhoBanner from "../../assets/home-banner.jpg";
 import styles from "./Carrinho.module.css";
 import CardCarrinho from "../../components/CardCarrinho/CardCarrinho";
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 export const Carrinho = () => {
+  const navigate = useNavigate();
   const carrinho = useSelector((state) => state.carrinho);
 
   return (
@@ -18,9 +20,9 @@ export const Carrinho = () => {
 
       <div className={styles.main}>
         {carrinho &&
-          carrinho.map((skin) => {
+          carrinho.items.map((skin) => {
             return (
-              <div key={`${skin.arma} ${skin.nome}`}>
+              <div key={skin.id}>
                 <CardCarrinho {...skin} />
               </div>
             );
@@ -30,10 +32,12 @@ export const Carrinho = () => {
           <div>
             <p>Resumo da compra</p>
             <p>
-              Subtotal: <strong>10.99</strong>
+              Subtotal: <strong>R$ {carrinho.precoTotal}</strong>
             </p>
           </div>
-          <button>Finalizar Compra</button>
+          <button onClick={() => navigate("/finalizar", { state: carrinho })}>
+            Finalizar Compra
+          </button>
         </div>
       </div>
     </>

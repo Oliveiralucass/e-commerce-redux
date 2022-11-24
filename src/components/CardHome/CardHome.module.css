@@ -12,7 +12,6 @@
 .container:hover {
   cursor: pointer;
   background-color: rgba(46, 36, 117, 0.6);
-
 }
 
 .container img {

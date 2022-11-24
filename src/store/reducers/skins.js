@@ -9,7 +9,7 @@ const skinsSlice = createSlice({
   reducers: {
     mudarFavorito: (state, { payload }) => {
       state = state.map((skin) => {
-        if (skin.nome === payload) skin.favorito = !skin.favorito;
+        if (skin.id === payload) skin.favorito = !skin.favorito;
         return skin;
       });
     },

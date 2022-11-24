@@ -1,0 +1,86 @@
+.containerList {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  top: 40px;
+  z-index: 999;
+  overflow-y: auto;
+}
+
+.containerList::-webkit-scrollbar {
+  display: block;
+  width: 10px;
+  background-color: var(--branco);
+  border: solid 3px var(--branco);
+}
+
+.containerList::-webkit-scrollbar-thumb {
+  width: 20px;
+  background-color: var(--roxo-detail);
+  border: 2px solid var(--branco);
+  border-radius: 100px;
+}
+
+.buscaContainer{
+  display: flex;
+}
+
+.containerCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  min-height: 100px;
+  max-height: 100px;
+  padding: 0.25rem 1rem;
+  background-color: var(--branco);
+}
+
+.containerCard div {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  align-items: center;
+  gap: 1rem;
+}
+
+.containerCard:hover {
+  background-color: var(--roxo-detail);
+}
+
+.containerNames {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.containerCard img {
+  width: 45px;
+  height: 45px;
+}
+.carrinho{
+  display: flex;
+  width: 15%;
+  background-color: var(--branco);
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 1.75rem;
+  color: var(--roxo-primary);
+  z-index: 999;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: var(--roxo-secondary);
+}

@@ -8,6 +8,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import { Provider } from "react-redux";
 import store from "./store/store";
+import { FinalizarPedido } from "./pages/FinalizarPedido/FinalizarPedido";
 
 export const AppRoutes = () => {
   return (
@@ -16,8 +17,8 @@ export const AppRoutes = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-
           <Route path="/carrinho" element={<Carrinho />} />
+          <Route path="/finalizar" element={<FinalizarPedido />} />
 
           <Route path="/weapons">
             <Route index element={<Weapons />} />

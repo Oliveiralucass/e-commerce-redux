@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./CardSkin.module.css";
 import { AiOutlineHeart } from "react-icons/ai";
 import { FaShoppingCart } from "react-icons/fa";
@@ -6,11 +6,22 @@ import { AiFillHeart } from "react-icons/ai";
 import { mudarFavorito } from "../../store/reducers/skins";
 import {
   adicionarAoCarrinho,
-  removerDoCarrinho,
-} from "../../store/reducers/carrinho";
+  mudarFavoritoCarrinho
+} 
+
+from "../../store/reducers/carrinho";
 import { useDispatch } from "react-redux";
 
 const CardSkin = (props) => {
+
+  const [like, setLike] = useState(props.favorito);
+
+  const darLike = () => {
+    setLike(!like);
+    dispatch(mudarFavorito(props.id))
+    dispatch(mudarFavoritoCarrinho(props.id))
+  };
+
   const dispatch = useDispatch();
 
   return (
@@ -24,12 +35,12 @@ const CardSkin = (props) => {
           {props.favorito ? (
             <AiFillHeart
               className={styles.icon}
-              onClick={() => dispatch(mudarFavorito(props.nome))}
+              onClick={darLike}
             />
           ) : (
             <AiOutlineHeart
               className={styles.icon}
-              onClick={() => dispatch(mudarFavorito(props.nome))}
+              onClick={darLike}
             />
           )}
           <FaShoppingCart

@@ -1,26 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
 
-:root{
-  --roxo-bg: #19123B;
+:root {
+  --roxo-bg: #19123b;
   --roxo-primary: #2e2475;
   --roxo-secondary: #473b91;
-  --roxo-detail: #785EA8; 
+  --roxo-detail: #785ea8;
   --branco: #faf5ff;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-body{
+body {
   background-color: var(--roxo-bg);
 }
-a{
+a {
   text-decoration: none;
 }
 
-ul, li{
+ul,
+li {
   list-style-type: none;
 }
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import CardSkin from "../../components/CardSkin/CardSkin";
 import { useSelector } from "react-redux";
@@ -13,11 +13,15 @@ export const Weapons = () => {
     })
   );
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className={styles.main}>
       {skins &&
         skins.map((skin) => {
-          return <CardSkin key={`${skin.arma} ${skin.nome}`} {...skin} />;
+          return <CardSkin key={skin.id} {...skin} />;
         })}
     </div>
   );

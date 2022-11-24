@@ -24,7 +24,7 @@
   gap: 5rem;
 }
 
-.container > div div {
+.container > div > div {
   display: flex;
   align-items: center;
   gap: 1.25rem;
@@ -48,7 +48,7 @@
 }
 
 .container input {
-  width: 200px;
+  width: 300px;
   height: 30px;
   border: none;
   border-radius: 5px;
@@ -68,4 +68,12 @@
 .cart:hover {
   color: var(--roxo-detail);
   cursor: pointer;
+}
+
+.containerBusca {
+  position: relative;
+}
+
+.hidden{
+  display: none;
 }
