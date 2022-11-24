@@ -1,0 +1,17 @@
+
+.container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0 340px;
+}
+.container h1 {
+    font-size: 9rem;
+    color: var(--roxo-detail);
+}
+
+.container p {
+    font-size: 3rem;
+    color: var(--roxo-detail);
+}

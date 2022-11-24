@@ -5,7 +5,7 @@
     "nome": "Doppler Sapphire",
     "colecao": "Chroma case",
     "image": "karambit-doppler-sapphire.png",
-    "preco": 11953.0,
+    "preco": 11953.00,
     "favorito": false,
     "id": "karambit1"
   },
@@ -15,7 +15,7 @@
     "nome": "Gamma Doppler Emerald",
     "colecao": "Gamma case",
     "image": "karambit-gamma-doppler-emerald.png",
-    "preco": 10958.0,
+    "preco": 10958.00,
     "favorito": false,
     "id": "karambit2"
   },
@@ -25,7 +25,7 @@
     "nome": "Doppler Ruby",
     "colecao": "Chroma case",
     "image": "karambit-doppler-ruby.png",
-    "preco": 8260.0,
+    "preco": 8260.00,
     "favorito": false,
     "id": "karambit3"
   },
@@ -35,7 +35,7 @@
     "nome": "Doppler Black Pearl",
     "colecao": "Chroma case",
     "image": "karambit-doppler-black-pearl.png",
-    "preco": 5160.0,
+    "preco": 5160.00,
     "favorito": false,
     "id": "karambit4"
   },
@@ -46,7 +46,7 @@
     "nome": "Doppler Sapphire",
     "colecao": "Chroma case",
     "image": "m9-bayonet-doppler-sapphire.png",
-    "preco": 14647.0,
+    "preco": 14647.00,
     "favorito": false,
     "id": "faca-m9-bayonet1"
   },
@@ -56,7 +56,7 @@
     "nome": "Gamma Doppler Emerald",
     "colecao": "Gamma case",
     "image": "m9-bayonet-gamma-doppler-emerald.png",
-    "preco": 12416.0,
+    "preco": 12416.00,
     "favorito": false,
     "id": "faca-m9-bayonet2"
   },
@@ -66,7 +66,7 @@
     "nome": "Doppler Ruby",
     "colecao": "Chroma case",
     "image": "m9-bayonet-doppler-ruby.png",
-    "preco": 6721.0,
+    "preco": 6721.00,
     "favorito": false,
     "id": "faca-m9-bayonet3"
   },
@@ -76,7 +76,7 @@
     "nome": "Crimson Web",
     "colecao": "Weapon case",
     "image": "m9-bayonet-crimson-web.png",
-    "preco": 534.0,
+    "preco": 534.00,
     "favorito": false,
     "id": "faca-m9-bayonet4"
   },
@@ -87,7 +87,7 @@
     "nome": "Doppler Sapphire",
     "colecao": "Spectrum case",
     "image": "faca-butterfly-doppler-sapphire.png",
-    "preco": 18514.0,
+    "preco": 18514.00,
     "favorito": false,
     "id": "faca-butterfly1"
   },
@@ -97,7 +97,7 @@
     "nome": "Gamma Doppler Emerald",
     "colecao": "Operation riptide case",
     "image": "faca-butterfly-gamma-doppler-emerald.png",
-    "preco": 20830.0,
+    "preco": 20830.00,
     "favorito": false,
     "id": "faca-butterfly2"
   },
@@ -107,7 +107,7 @@
     "nome": "Doppler Ruby",
     "colecao": "Spectrum case",
     "image": "faca-butterfly-doppler-ruby.png",
-    "preco": 10516.0,
+    "preco": 10516.00,
     "favorito": false,
     "id": "faca-butterfly3"
   },
@@ -117,7 +117,7 @@
     "nome": "Crimson Web",
     "colecao": "Operation breakout weapon case",
     "image": "faca-butterfly-crimson-web.png",
-    "preco": 771.0,
+    "preco": 771.00,
     "favorito": false,
     "id": "faca-butterfly4"
   },
@@ -128,7 +128,7 @@
     "nome": "Doppler Sapphire",
     "colecao": "Prisma case",
     "image": "faca-talon-doppler-sapphire.png",
-    "preco": 6901.0,
+    "preco": 6901.00,
     "favorito": false,
     "id": "faca-talon1"
   },
@@ -138,7 +138,7 @@
     "nome": "Doppler Ruby",
     "colecao": "Prisma case",
     "image": "faca-talon-doppler-ruby.png",
-    "preco": 4990.0,
+    "preco": 4990.00,
     "favorito": false,
     "id": "faca-talon2"
   },
@@ -148,7 +148,7 @@
     "nome": "Crimson Web",
     "colecao": "Horizon case",
     "image": "faca-talon-crimson-web.png",
-    "preco": 397.9,
+    "preco": 397.90,
     "favorito": false,
     "id": "faca-talon3"
   },
@@ -158,7 +158,7 @@
     "nome": "Fade",
     "colecao": "Horizon case",
     "image": "faca-talon-fade.png",
-    "preco": 1393.0,
+    "preco": 1393.00,
     "favorito": false,
     "id": "faca-talon4"
   },
@@ -179,7 +179,7 @@
     "nome": "Fade",
     "colecao": "Shattered web case",
     "image": "faca-skeleton-fade.png",
-    "preco": 2072.5,
+    "preco": 2072.50,
     "favorito": false,
     "id": "faca-skeleton2"
   },
@@ -189,7 +189,7 @@
     "nome": "Case hardened",
     "colecao": "Shattered web case",
     "image": "faca-skeleton-case-hardened.png",
-    "preco": 522.0,
+    "preco": 522.00,
     "favorito": false,
     "id": "faca-skeleton3"
   },
@@ -199,7 +199,7 @@
     "nome": "Slaughter",
     "colecao": "Shattered web case",
     "image": "faca-skeleton-slaughter.png",
-    "preco": 1034.9,
+    "preco": 1034.90,
     "favorito": false,
     "id": "faca-skeleton4"
   },
@@ -210,7 +210,7 @@
     "nome": "Wild Lotus",
     "colecao": "The St Marc Collection",
     "image": "ak-47-wild-lotus.png",
-    "preco": 2386.0,
+    "preco": 2386.00,
     "favorito": false,
     "id": "ak-471"
   },
@@ -220,7 +220,7 @@
     "nome": "Vulcan",
     "colecao": "The huntsman collection",
     "image": "ak-47-vulcan.png",
-    "preco": 109.0,
+    "preco": 109.00,
     "favorito": false,
     "id": "ak-472"
   },
@@ -281,7 +281,7 @@
     "nome": "Boom",
     "colecao": "The eSports 2013 collection",
     "image": "awp-boom.png",
-    "preco": 113.6,
+    "preco": 113.60,
     "favorito": false,
     "id": "awp4"
   },
@@ -292,7 +292,7 @@
     "nome": "Howl",
     "colecao": "The huntsman collection",
     "image": "m4a4-howl.png",
-    "preco": 8379.0,
+    "preco": 8379.00,
     "favorito": false,
     "id": "m4a41"
   },
@@ -302,7 +302,7 @@
     "nome": "Poseidon",
     "colecao": "The gods and monsters collection",
     "image": "m4a4-poseidon.png",
-    "preco": 971.0,
+    "preco": 971.00,
     "favorito": false,
     "id": "m4a42"
   },
@@ -312,7 +312,7 @@
     "nome": "Asiimov",
     "colecao": "The winter offensive collection",
     "image": "m4a4-howl.png",
-    "preco": 113.5,
+    "preco": 113.50,
     "favorito": false,
     "id": "m4a43"
   },
@@ -353,7 +353,7 @@
     "nome": "Printstream",
     "colecao": "The operation broken fang collection",
     "image": "m4a1-s-printstream.png",
-    "preco": 161.6,
+    "preco": 161.60,
     "favorito": false,
     "id": "m4a1-s3"
   },
@@ -363,7 +363,7 @@
     "nome": "Blue phosphor",
     "colecao": "The control collection",
     "image": "m4a1-s-blue-phosphor.png",
-    "preco": 310.5,
+    "preco": 310.50,
     "favorito": false,
     "id": "m4a1-s4"
   },
@@ -374,7 +374,7 @@
     "nome": "Hot rod",
     "colecao": "The assault collection",
     "image": "aug-hot-rod.png",
-    "preco": 271.5,
+    "preco": 271.50,
     "favorito": false,
     "id": "aug1"
   },
@@ -404,7 +404,7 @@
     "nome": "Torque",
     "colecao": "The huntsman collection",
     "image": "aug-torque.png",
-    "preco": 6.7,
+    "preco": 6.70,
     "favorito": false,
     "id": "aug4"
   },
@@ -415,7 +415,7 @@
     "nome": "Printstream",
     "colecao": "The Recoil Collection",
     "image": "usp-s-printstream.png",
-    "preco": 66.6,
+    "preco": 66.60,
     "favorito": false,
     "id": "usp-s1"
   },
@@ -437,7 +437,7 @@
     "nome": "Target Acquired",
     "colecao": "The Control Collection",
     "image": "usp-s-target-acquired.png",
-    "preco": 110.3,
+    "preco": 110.30,
     "favorito": false,
     "id": "usp-s3"
   },
@@ -448,7 +448,7 @@
     "nome": "Whiteout",
     "colecao": "The 2021 Train Collection",
     "image": "usp-s-whiteout.png",
-    "preco": 3.9,
+    "preco": 3.90,
     "favorito": false,
     "id": "usp-s4"
   },
@@ -470,7 +470,7 @@
     "nome": "Gamma Doppler Emerald",
     "colecao": "The 2021 Train Collection",
     "image": "glock-18-gamma-doppler-emerald.png",
-    "preco": 100.0,
+    "preco": 100.00,
     "favorito": false,
     "id": "glock-182"
   },
@@ -612,7 +612,7 @@
     "nome": "Candy Apple",
     "colecao": "The Assault Collection",
     "image": "five-seven-candy-apple.png",
-    "preco": 58.4,
+    "preco": 58.40,
     "favorito": false,
     "id": "five-seven3"
   },
