@@ -36,8 +36,15 @@
   background-color: var(--branco);
 }
 
+.containerCard div {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  align-items: center;
+  gap: 1rem;
+}
+
 .containerCard:hover {
-  cursor: pointer;
   background-color: var(--roxo-detail);
 }
 
@@ -53,9 +60,16 @@
 
 .containerCard img {
   width: 45px;
+  height: 45px;
 }
 
 .icon {
   font-size: 1.75rem;
   color: var(--roxo-primary);
+  z-index: 999;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: var(--branco);
 }
