@@ -24,25 +24,39 @@ const Header = () => {
     dispatch(resetarBusca());
   }, [location.pathname, dispatch]);
 
+  const mudaParaHome = () => {
+    if (location.pathname !== "/") navigate("/");
+  };
+
   return (
     <div className={styles.container}>
       <h1 onClick={() => navigate("/")}>go.skins</h1>
       <div>
         <ul>
           <li>
-            <a href="#facas">Facas</a>
+            <a onClick={mudaParaHome} href="#facas">
+              Facas
+            </a>
           </li>
           <li>
-            <a href="#rifles">Rifles</a>
+            <a onClick={mudaParaHome} href="#rifles">
+              Rifles
+            </a>
           </li>
           <li>
-            <a href="#pistolas">Pistolas</a>
+            <a onClick={mudaParaHome} href="#pistolas">
+              Pistolas
+            </a>
           </li>
           <li>
-            <a href="#submetralhadoras">Submetralhadoras</a>
+            <a onClick={mudaParaHome} href="#submetralhadoras">
+              Submetralhadoras
+            </a>
           </li>
           <li>
-            <a href="#escopetas">Escopetas</a>
+            <a onClick={mudaParaHome} href="#escopetas">
+              Escopetas
+            </a>
           </li>
         </ul>
         <div>
