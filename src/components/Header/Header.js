@@ -66,7 +66,11 @@ const Header = () => {
               placeholder="Pesquisar..."
               value={busca}
               onChange={(evento) => dispatch(fazerBusca(evento.target.value))}
-              onBlur={() => dispatch(fazerBusca(""))}
+              onBlur={() => {
+                setTimeout(() => {
+                  dispatch(fazerBusca(""));
+                }, 100);
+              }}
             />
             {busca && <CardBusca props={skins} />}
           </div>
