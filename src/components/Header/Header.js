@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Header.module.css";
 import { FaShoppingCart } from "react-icons/fa";
 import { Link, useNavigate, useLocation } from "react-router-dom";
@@ -58,21 +58,24 @@ const Header = () => {
               Escopetas
             </a>
           </li>
-        </ul>
+        </ul> 
         <div>
           {/* lógica de busca */}
-          <div className={styles.containerBusca}>
+          <div className={`${styles.containerBusca} cardDiv`}
+           >
             <input
               placeholder="Pesquisar..."
               value={busca}
               onChange={(evento) => dispatch(fazerBusca(evento.target.value))}
-              onBlur={() => {
-                setTimeout(() => {
-                  dispatch(fazerBusca(""));
-                }, 100);
-              }}
+              className={'cardDiv'}
+              onBlur={() => setTimeout(()=>{
+                {dispatch(fazerBusca(""))}
+              }, 500)}
+                
             />
-            {busca && <CardBusca props={skins} />}
+            {busca && <CardBusca id={'buscaDiv'} props={skins}/>
+}
+
           </div>
           {/* lógica de busca */}
           <Link to={"/carrinho"}>

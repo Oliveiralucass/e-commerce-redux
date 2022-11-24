@@ -12,20 +12,27 @@ const CardBusca = ({ props }) => {
   return (
     <div className={styles.containerList}>
       {props.map((skin) => (
-        <div
-          key={skin.id}
-          className={styles.containerCard}
-          onClick={() => navigate(`/weapons/${skin.url}`)}
-        >
-          <img src={require(`../../assets/${skin.image}`)} alt="imagem" />
-          <span className={styles.containerNames}>
-            <p>{skin.arma}</p>
-            <p>{skin.nome}</p>
-          </span>
-          <FaShoppingCart
-            className={styles.icon}
-            onClick={() => dispatch(adicionarAoCarrinho(skin))}
-          />
+        <div className={styles.buscaContainer}>
+          <div
+            key={skin.id}
+            className={styles.containerCard}
+            onClick={() => navigate(`/weapons/${skin.url}`)}
+          >
+            <img src={require(`../../assets/${skin.image}`)} alt="imagem" />
+            <span className={styles.containerNames}>
+              <p>{skin.arma}</p>
+              <p>{skin.nome}</p>
+            </span>
+          </div>
+          <div className={styles.carrinho}> 
+            <FaShoppingCart
+              className={styles.icon}
+              onClick={() => { 
+                  dispatch(adicionarAoCarrinho(skin))
+                  navigate(`/carrinho`)
+              }}
+            />
+          </div>
         </div>
       ))}
     </div>
