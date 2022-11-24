@@ -4,8 +4,10 @@ import carrinhoBanner from "../../assets/home-banner.jpg";
 import styles from "./Carrinho.module.css";
 import CardCarrinho from "../../components/CardCarrinho/CardCarrinho";
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 export const Carrinho = () => {
+  const navigate = useNavigate();
   const carrinho = useSelector((state) => state.carrinho);
 
   return (
@@ -33,7 +35,9 @@ export const Carrinho = () => {
               Subtotal: <strong>{carrinho.precoTotal}</strong>
             </p>
           </div>
-          <button>Finalizar Compra</button>
+          <button onClick={() => navigate("/finalizar", { state: carrinho })}>
+            Finalizar Compra
+          </button>
         </div>
       </div>
     </>

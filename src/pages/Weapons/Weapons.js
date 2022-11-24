@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import CardSkin from "../../components/CardSkin/CardSkin";
 import { useSelector } from "react-redux";
@@ -12,6 +12,10 @@ export const Weapons = () => {
       return skin.url === gun;
     })
   );
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className={styles.main}>
