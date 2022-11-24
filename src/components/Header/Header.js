@@ -4,13 +4,16 @@ import { FaShoppingCart } from "react-icons/fa";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { fazerBusca, resetarBusca } from "../../store/reducers/busca";
+import CardBusca from "../CardBusca/CardBusca";
 
 const Header = () => {
   const { busca, skins } = useSelector((state) => {
     const regexp = new RegExp(state.busca, "i"); //fazer buscas entre strings case sensitive
     return {
       busca: state.busca,
-      skins: state.skins.filter((item) => item.nome.match(regexp)),
+      skins: state.skins.filter((item) => {
+        if (item.nome.match(regexp) || item.arma.match(regexp)) return item;
+      }),
     };
   });
   const dispatch = useDispatch();
@@ -43,21 +46,17 @@ const Header = () => {
           </li>
         </ul>
         <div>
-          <div>
+          {/* lógica de busca */}
+          <div className={styles.containerBusca}>
             <input
               placeholder="Pesquisar..."
               value={busca}
               onChange={(evento) => dispatch(fazerBusca(evento.target.value))}
+              onBlur={() => dispatch(fazerBusca(""))}
             />
-            {busca &&
-              skins.map((item) => {
-                return (
-                  <p style={{ color: "#fff" }} key={item.id}>
-                    {item.nome}
-                  </p>
-                );
-              })}
+            {busca && <CardBusca props={skins} />}
           </div>
+          {/* lógica de busca */}
           <Link to={"/carrinho"}>
             <FaShoppingCart className={styles.cart} />
           </Link>
