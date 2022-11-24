@@ -11,8 +11,10 @@ export const FinalizarPedido = () => {
         state.items.map((skin) => {
           return (
             <div key={skin.id}>
-              <img src={require(`../../assets/${skin.image}`)} alt="imagem" />
-              <p>{skin.nome}</p>
+              <div>
+                <img src={require(`../../assets/${skin.image}`)} alt="imagem" />
+                <p>{skin.nome}</p>
+              </div>
               <p>{skin.quantidade}</p>
             </div>
           );
