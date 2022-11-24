@@ -51,10 +51,19 @@ const carrinhoSlice = createSlice({
         })
     },
 
+    mudarFavoritoCarrinho: (state, { payload }) => {
+      state.items = state.items.map((skin) => {
+        if(skin.id === payload)
+          skin.favorito = !skin.favorito;
+          return skin
+      })
+
+    },
+
     resetarCarrinho: () => initialState,
   },
 });
 
-export const { adicionarAoCarrinho, removerDoCarrinho, adicionarQuantidade ,removerQuantidade } = carrinhoSlice.actions;
+export const { adicionarAoCarrinho, removerDoCarrinho, adicionarQuantidade ,removerQuantidade, mudarFavoritoCarrinho } = carrinhoSlice.actions;
 
 export default carrinhoSlice.reducer;
