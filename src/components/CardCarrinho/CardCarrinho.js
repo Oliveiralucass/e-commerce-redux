@@ -30,7 +30,7 @@ const CardCarrinho = (props) => {
         <div>
           <h2>{props.nome}</h2>
           <h4>{props.colecao}</h4>
-          <h3>{props.preco}</h3>
+          <h3>R$ {props.preco}</h3>
         </div>
       </div>
       <div className={styles.buttons}>
@@ -56,6 +56,7 @@ const CardCarrinho = (props) => {
         />
 
         <button
+          className={styles.remover}
           onClick={() =>
             dispatch(
               removerDoCarrinho({

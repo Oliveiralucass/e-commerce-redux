@@ -1,21 +1,21 @@
-.main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    margin-top: 100px;
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 120px;
 }
 
-.categoria{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    color: var(--branco);
+.categoria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  color: var(--branco);
 }
 
-.cards{
-    display: flex;
-    gap: 40px;
-    margin-bottom: 20px;
+.cards {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
 }

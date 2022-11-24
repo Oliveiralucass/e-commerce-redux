@@ -28,7 +28,7 @@
 }
 
 .infos img {
-  width: 200px
+  width: 200px;
 }
 
 .infos div {
@@ -55,7 +55,7 @@
 
 .icon {
   font-size: 2rem;
-  color: var(--roxo-detail)
+  color: var(--roxo-detail);
 }
 
 .icon:hover {
@@ -69,6 +69,20 @@
 }
 
 .iconButtons:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.remover {
+  background-color: var(--roxo-detail);
+  color: var(--roxo-bg);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.remover:hover {
   cursor: pointer;
   opacity: 0.8;
 }

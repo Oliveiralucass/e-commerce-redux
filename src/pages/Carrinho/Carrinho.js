@@ -32,7 +32,7 @@ export const Carrinho = () => {
           <div>
             <p>Resumo da compra</p>
             <p>
-              Subtotal: <strong>{carrinho.precoTotal}</strong>
+              Subtotal: <strong>R$ {carrinho.precoTotal}</strong>
             </p>
           </div>
           <button onClick={() => navigate("/finalizar", { state: carrinho })}>
